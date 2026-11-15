@@ -41,3 +41,7 @@ Prefer a pinned commit and line-linked source. Verify the exact file content bef
 - Crystal Columns: `ChristianEngel19820128/Crystals`, reference branch `main`.
 
 See [references/source-projects.md](references/source-projects.md). Further source projects require their own review.
+
+## Grow with the source projects
+
+Regularly review new implementations, debugging results and test feedback from the source projects for reusable Knowledge Base material. The repository is also an implementation reference for later project work. Check existing articles and experiments first; record promising candidates in the source project's documentation with their evidence status and unresolved tests. A candidate is not a verified finding. Before adding an article, verify the actual source revision, relevant licensing, reproducibility, test conditions and limitations, and distinguish custom game code from AGK engine behavior. Do not upgrade an uncompiled or visually untested experiment to a proven solution. Keep important documentation current in each authorized commit; update the affected files rather than every file routinely.
