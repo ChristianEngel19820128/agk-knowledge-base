@@ -1,5 +1,8 @@
 # Testing methodology for AGK investigations
 
+**Work status:** Published  
+**Evidence status:** Design decision / proposal (documentation and testing practice); code-reviewed source references and developer-reported examples are labeled within the article.  
+
 The central principle is to **separate source-code behavior, local observations, hypotheses and design decisions**. A successful fix in one game does not prove an AGK engine defect or a universal workaround.
 
 ## Evidence levels
