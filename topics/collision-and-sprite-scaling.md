@@ -1,8 +1,8 @@
 # Collision geometry and sprite scaling
 
+**Work status:** Published  
+**Evidence status:** Specific code fixes are code-reviewed. The flame-circle-to-chest experiment was subsequently **locally tested** by the developer. Other updated flame targets need further regression tests.  
 **Scope:** Collision math and custom object management in SonecBot. These findings concern **game-defined** collision calculations; they are not evidence of a bug in AGK's built-in sprite collision system.
-
-**Evidence:** Specific code fixes are code-reviewed. The flame-circle-to-chest experiment was subsequently **locally tested** by the developer. Other updated flame targets need further regression tests.
 
 ## 1. Do not multiply an already scaled size by its scale again
 
