@@ -1,6 +1,6 @@
 # Browser exit versus desktop quit in an AppGameKit Studio game
 
-**Work status:** Review  
+**Work status:** Published  
 **Evidence status:** Code-reviewed implementations in SonecBot and Crystals; developer-reported HTML5 behavior and historical correction  
 **Scope:** Custom exit handling in two AGK projects. **Not** an independently isolated or universal AGK engine defect.  
 **Pinned source revisions:** [SonecBot `2ddb1c93963dc38bbe3c17260e9bb7a6f8b40d8c`](https://github.com/ChristianEngel19820128/SonecBot/tree/2ddb1c93963dc38bbe3c17260e9bb7a6f8b40d8c); [Crystals ESC fix `f2471121b5d7fc65e232d77cb236ebd6b4d71b1c`](https://github.com/ChristianEngel19820128/Crystals/commit/f2471121b5d7fc65e232d77cb236ebd6b4d71b1c)  
