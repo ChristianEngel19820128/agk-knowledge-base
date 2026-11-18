@@ -1,7 +1,7 @@
 # Keyboard input and safe rebinding in AppGameKit Studio
 
-**Status:** Draft for review (Knowledge Base work status: `Review`)  
-**Evidence:** Code-reviewed implementation; developer-reported Windows, local HTML5/Apache and itch.io Draft embedded tests  
+**Work status:** Review  
+**Evidence status:** Code-reviewed implementation; locally tested as reported by the SonecBot developer (Windows, local HTML5/Apache and itch.io Draft embed)  
 **Scope:** Custom SonecBot input mapping, menu navigation, persistence and UI; **not a demonstrated defect or universal behavior of the AGK engine**  
 **Pinned source revision:** [SonecBot code at `2ddb1c93963dc38bbe3c17260e9bb7a6f8b40d8c`](https://github.com/ChristianEngel19820128/SonecBot/tree/2ddb1c93963dc38bbe3c17260e9bb7a6f8b40d8c)  
 **Test environment:** Developer-run AppGameKit Studio on Windows; HTML5 exported and run through a local Apache server; subsequent real itch.io Draft embed. Exact AGK Studio version, browser versions and complete hardware test matrix: **not recorded** here.
