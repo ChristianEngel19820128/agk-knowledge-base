@@ -1,6 +1,6 @@
 # Persistent settings in AppGameKit Studio: Windows vs. HTML5
 
-**Work status:** Review  
+**Work status:** Published  
 **Evidence status:** Code-reviewed SonecBot implementation; developer-reported local Windows and HTML5/Apache tests, plus a hosted itch.io Draft embed check for keyboard bindings  
 **Scope:** Application-defined persistence of gameplay preferences and input mappings. This is an example of a project architecture, **not** a guarantee of storage availability in every browser or proof of an AGK engine defect.  
 **Pinned code revision:** [SonecBot `2ddb1c93963dc38bbe3c17260e9bb7a6f8b40d8c`](https://github.com/ChristianEngel19820128/SonecBot/tree/2ddb1c93963dc38bbe3c17260e9bb7a6f8b40d8c)  
@@ -136,7 +136,7 @@ This is a **proposed reproducible test sequence**, not a claim that every item h
 - Decide on handling and reporting failed writes if a project needs stronger storage guarantees.
 - When a future settings schema changes, document the migration strategy rather than silently changing v1 parsing.
 - Revisit gamepad mapping only after the Real Alpha implementation and its tests provide evidence.
-- Review this draft against the existing Keyboard input article and [testing methodology](testing-methodology.md) before changing its work status to Published.
+- **Review completed (18 November 2026):** Compared this article with the published [Keyboard input and safe rebinding](keyboard-input-and-rebinding.md), [testing methodology](testing-methodology.md) and repository contribution rules. No blocking technical contradiction was found; the owner confirmed that the article is understandable and useful. Future evidence or corrections remain welcome.
 
 ## References
 
