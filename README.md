@@ -10,6 +10,8 @@ The aim is to distinguish what code actually does, what developers observed in a
 
 ## Browse the knowledge base
 
+This curated list contains **Published** topic articles only. Articles in **Review**, unfinished candidates and the full evidence/status record are linked from the [TODO and evidence backlog](TODO.md); their status is maintained there rather than duplicated in this README.
+
 | Topic | What it covers |
 | --- | --- |
 | [Timing and frame rates](topics/timing-and-frame-rates.md) | Timer thresholds, real/virtual time, delta updates, integer-vs-float arithmetic and frame-dependent event probabilities |
