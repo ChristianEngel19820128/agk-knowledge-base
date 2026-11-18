@@ -13,6 +13,8 @@
 
 **Single next step:** owner reviews the targeted corrections; then decide whether the keyboard article can move from `Review` to `Published`. No automatic promotion or other article rewrites.
 
+**Metadata-only status review (18 November 2026):** The four original topic articles and both existing experiments were checked against this inventory. Their document headers now explicitly distinguish **Work status: Published** from their original evidence descriptions. No technical explanations, results, or test claims were changed. The README's curated *Browse* list includes Published topics only; Review candidates remain discoverable here. The new keyboard article remains **Review**.
+
 ## Status model
 
 **Work status**
