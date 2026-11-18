@@ -20,6 +20,7 @@ This curated list contains **Published** topic articles only. Articles in **Revi
 | [Testing methodology](topics/testing-methodology.md) | How to report reproducible conditions and label the strength of each claim |
 | [Keyboard input and safe rebinding](topics/keyboard-input-and-rebinding.md) | Safe menu navigation, modal capture, duplicate assignments, persistence, defaults and developer-tested Windows/HTML5 behavior |
 | [Persistent settings: Windows vs. HTML5](topics/html5-persistence-and-settings.md) | Platform-specific storage, versioned settings, safe defaults, validation, and separately reported Windows/HTML5/browser tests |
+| [Browser exit versus desktop quit](topics/browser-exit-vs-desktop-quit.md) | Platform-aware ESC and QUIT handling, with code evidence from SonecBot and a historical Crystals HTML5 fix |
 
 ### Reproducible experiments
 
