@@ -1,6 +1,6 @@
 # Source projects and revision provenance
 
-This document records the **source revisions used when drafting Knowledge Base v0.1**. The source projects are not dependencies, and their current branches may change after this snapshot.
+This document preserves the **source revisions used when drafting Knowledge Base v0.1** and records later source reviews in separate dated sections. The source projects are not dependencies, and their current branches may change after each snapshot.
 
 ## SonecBot
 
@@ -23,6 +23,14 @@ This document records the **source revisions used when drafting Knowledge Base v
 | [`88f5575`](https://github.com/ChristianEngel19820128/SonecBot/commit/88f55755bda991e4a7601a1c46c5e2a7e1285982) | Reduced platform/chest sprite-edge contrast |
 
 **Evidence boundary:** Most compiled/visual observations were supplied by the developer on a Windows system. The Knowledge Base authoring pass is a **source review** and does not independently compile or run the AGK project. Local test results in the articles must not be upgraded to controlled lab measurements.
+
+### Later SonecBot review: keyboard input and rebinding (18 November 2026)
+
+- **Pinned reviewed code revision:** [`2ddb1c93963dc38bbe3c17260e9bb7a6f8b40d8c`](https://github.com/ChristianEngel19820128/SonecBot/tree/2ddb1c93963dc38bbe3c17260e9bb7a6f8b40d8c). This is a subsequent reference, **not** a replacement for the v0.1 baseline `6e10b3d`.
+- **Reviewed implementation files:** [`source/sonec/intro.agc`](https://github.com/ChristianEngel19820128/SonecBot/blob/2ddb1c93963dc38bbe3c17260e9bb7a6f8b40d8c/source/sonec/intro.agc), [`input.agc`](https://github.com/ChristianEngel19820128/SonecBot/blob/2ddb1c93963dc38bbe3c17260e9bb7a6f8b40d8c/source/sonec/input.agc), [`def_input.agc`](https://github.com/ChristianEngel19820128/SonecBot/blob/2ddb1c93963dc38bbe3c17260e9bb7a6f8b40d8c/source/sonec/def_input.agc).
+- **Knowledge Base draft:** [Keyboard input and safe rebinding](../topics/keyboard-input-and-rebinding.md), currently undergoing review. The article covers a custom menu-navigation regression, modal key capture, duplicate warnings, versioned input persistence and keyboard-only reset.
+- **Test provenance:** SonecBot developer reported Windows and local HTML5/Apache acceptance, followed by a **12/12 hosted itch.io Draft embed smoke test** for the keyboard-enabled build. The [project handoff](https://github.com/ChristianEngel19820128/SonecBot/blob/develop/HANDOFF.md) records the reports but is a **moving documentation reference**; it is not itself a pinned test-log revision.
+- **Evidence limits:** source implementation was code-reviewed, but the Knowledge Base editor did not independently run AGK, Windows, HTML5 or itch.io. Gamepad mapping beyond the present implementation is deferred until future Real Alpha development and testing.
 
 ## Crystal Columns (Crystals)
 
