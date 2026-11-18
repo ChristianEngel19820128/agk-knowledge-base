@@ -28,13 +28,25 @@ Do not guess missing values. Write **not recorded** or **not tested**.
 
 Avoid declaring an AGK engine defect when the behavior originates from custom game code. If a claim concerns an AGK built-in function, test it separately in a minimal project where practical.
 
+## Work status versus evidence status
+
+Keep **two independent labels** in the [TODO backlog](TODO.md) and new articles:
+
+- **Work status:** `Backlog`, `Research`, `Draft`, `Review`, `Published`, or `Deferred`. This tells readers where the **documentation work** stands; `Published` means available, not universally proven.
+- **Evidence status:** `Locally tested`, `Code-reviewed`, `Hypothesis`, or `Design decision / proposal`. This tells readers what supports a **specific technical claim**. In the TODO only, `Evidence missing` means there is not yet enough evidence to classify a claim.
+
+An entry can be `Review` with developer-reported `Locally tested` evidence, or `Published` while still discussing a clearly marked `Hypothesis`. Where an article contains different evidence levels, state which findings have each label rather than giving every claim the strongest label.
+
+The [README](README.md) links to the [TODO](TODO.md) as the **single maintained inventory** of topics and their states. Do not copy the changing backlog or status table into the README.
+
 ## Recommended Markdown entry skeleton
 
 ~~~markdown
 # Finding title
 
-**Status:** Code-reviewed / Locally tested / Hypothesis / Design proposal
-**Scope:** AGK API / custom game code / mixed
+**Work status:** Draft / Review / Published (see TODO for other values)
+**Evidence status:** Code-reviewed / Locally tested / Hypothesis / Design decision / proposal
+**Scope: AGK API / custom game code / mixed
 **Source revision:** link to a pinned commit
 **Environment:** platform, AGK version, renderer, refresh rate (or "not recorded")
 
