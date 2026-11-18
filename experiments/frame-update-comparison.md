@@ -1,7 +1,8 @@
 # Experiment: 10 ms movement gate vs. every-positive-update
 
+**Work status:** Published  
+**Evidence status:** **Locally tested** for visual comparisons, **code-reviewed** for implementation; specific cause of residual jitter remains unproven.  
 **Reference game:** SonecBot, Windows test setup
-**Status:** **Locally tested** for visual comparisons, **code-reviewed** for implementation; specific cause of residual jitter remains unproven.
 **Original source revision:** [SonecBot 6e10b3d](https://github.com/ChristianEngel19820128/SonecBot/tree/6e10b3dcea542071aa8c9c7b2a35f2a3792d3be0)
 
 ## Question
