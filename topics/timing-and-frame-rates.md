@@ -1,8 +1,8 @@
 # Timing and frame rates in AGK projects
 
+**Work status:** Published  
+**Evidence status:** Code-reviewed at pinned revisions; selected visual comparisons locally tested by the SonecBot developer; causality for the original perceived jitter remains a hypothesis.  
 **Scope:** Custom timer and update code used by SonecBot and Crystal Columns; not a claim that AGK itself has a timing defect.
-
-**Evidence:** Code-reviewed at pinned revisions; selected visual comparisons locally tested by the SonecBot developer; causality for the original perceived jitter remains a hypothesis.
 
 ## 1. Timer gates are not the same as per-frame movement
 
