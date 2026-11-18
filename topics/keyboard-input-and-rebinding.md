@@ -1,6 +1,6 @@
 # Keyboard input and safe rebinding in AppGameKit Studio
 
-**Work status:** Review  
+**Work status:** Published  
 **Evidence status:** Code-reviewed implementation; locally tested as reported by the SonecBot developer (Windows, local HTML5/Apache and itch.io Draft embed)  
 **Scope:** Custom SonecBot input mapping, menu navigation, persistence and UI; **not a demonstrated defect or universal behavior of the AGK engine**  
 **Pinned source revision:** [SonecBot code at `2ddb1c93963dc38bbe3c17260e9bb7a6f8b40d8c`](https://github.com/ChristianEngel19820128/SonecBot/tree/2ddb1c93963dc38bbe3c17260e9bb7a6f8b40d8c)  
