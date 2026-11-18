@@ -18,6 +18,7 @@ This curated list contains **Published** topic articles only. Articles in **Revi
 | [Rendering and pixel scaling](topics/rendering-and-pixel-scaling.md) | VSync requests, Windows OpenGL/Vulkan comparisons, subpixel positions, pixel snapping and sprite edge contrast |
 | [Collision and sprite scaling](topics/collision-and-sprite-scaling.md) | Double-scaling pitfalls, animated hit geometry, circle-to-box tests and collision ownership |
 | [Testing methodology](topics/testing-methodology.md) | How to report reproducible conditions and label the strength of each claim |
+| [Keyboard input and safe rebinding](topics/keyboard-input-and-rebinding.md) | Safe menu navigation, modal capture, duplicate assignments, persistence, defaults and developer-tested Windows/HTML5 behavior |
 
 ### Reproducible experiments
 
