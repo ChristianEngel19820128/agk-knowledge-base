@@ -19,6 +19,7 @@ This curated list contains **Published** topic articles only. Articles in **Revi
 | [Collision and sprite scaling](topics/collision-and-sprite-scaling.md) | Double-scaling pitfalls, animated hit geometry, circle-to-box tests and collision ownership |
 | [Testing methodology](topics/testing-methodology.md) | How to report reproducible conditions and label the strength of each claim |
 | [Keyboard input and safe rebinding](topics/keyboard-input-and-rebinding.md) | Safe menu navigation, modal capture, duplicate assignments, persistence, defaults and developer-tested Windows/HTML5 behavior |
+| [Persistent settings: Windows vs. HTML5](topics/html5-persistence-and-settings.md) | Platform-specific storage, versioned settings, safe defaults, validation, and separately reported Windows/HTML5/browser tests |
 
 ### Reproducible experiments
 
