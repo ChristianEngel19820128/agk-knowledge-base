@@ -1,8 +1,8 @@
 # Rendering, VSync, and pixel scaling
 
+**Work status:** Published  
+**Evidence status:** Local developer visual tests, pinned source review, and unresolved explanations.  
 **Scope:** Windows observations from SonecBot, with custom sprite drawing and diagnostics. **Not** a universal ranking of AGK renderers or graphics cards.
-
-**Evidence:** Local developer visual tests, pinned source review, and unresolved explanations.
 
 ## 1. A VSync request is not proof of synchronized presentation
 
