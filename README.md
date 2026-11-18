@@ -6,7 +6,7 @@ This independent, community-oriented knowledge base collects lessons learned whi
 
 The aim is to distinguish what code actually does, what developers observed in a particular environment, and what still needs verification. This is a growing field notebook, **not** official AppGameKit documentation or a catalogue of confirmed engine bugs.
 
-> **Status: v0.1 — initial draft.** Documentation is based on the referenced project revisions and may lag behind later code changes.
+> **Living knowledge base:** the initial v0.1 articles are retained, and newer findings are added as evidence becomes available. For the **full inventory of current, draft, deferred and not-yet-verified topics**, use the [TODO and evidence backlog](TODO.md). This is the single source of truth for work and evidence status.
 
 ## Browse the knowledge base
 
@@ -21,6 +21,8 @@ The aim is to distinguish what code actually does, what developers observed in a
 
 - [10 ms timer gate vs. every-update movement](experiments/frame-update-comparison.md)
 - [Growing flame circle vs. static axis-aligned box](experiments/circle-vs-box-collision.md)
+
+**More articles, including drafts under review:** browse the [TODO and evidence backlog](TODO.md). It links each topic and records what evidence is available or still missing; the README intentionally does **not** duplicate that evolving list.
 
 See [source projects and pinned references](references/source-projects.md) for original code and context.
 
