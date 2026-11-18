@@ -1,7 +1,8 @@
 # Experiment: growing flame circle vs. static collision box
 
+**Work status:** Published  
+**Evidence status:** **Locally tested** for the first flame-to-chest implementation; broader shared-radius behavior **code-reviewed**, with continued gameplay regression testing needed.  
 **Reference game:** SonecBot
-**Status:** **Locally tested** for the first flame-to-chest implementation; broader shared-radius behavior **code-reviewed**, with continued gameplay regression testing needed.
 **Source:** [SonecBot at 6e10b3d](https://github.com/ChristianEngel19820128/SonecBot/tree/6e10b3dcea542071aa8c9c7b2a35f2a3792d3be0)
 
 ## Problem
